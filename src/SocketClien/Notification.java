@@ -9,7 +9,6 @@ public class Notification {
 
 	private Notification() {
 	}
-
 	public static Notification getInstanz() {
 		if (instanz == null)
 			return new Notification();
